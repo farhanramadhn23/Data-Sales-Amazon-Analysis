@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Load the dataset with caching to optimize performance
 @st.cache_data
 def load_data():
-    return pd.read_csv('cleaned_amazon.csv')
+    return pd.read_csv('dashboard/cleaned_amazon.csv')
 
 # Load data
 data = load_data()
